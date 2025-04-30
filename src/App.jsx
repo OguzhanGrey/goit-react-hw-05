@@ -4,7 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import "./App.css";
 import { RotateLoader } from "react-spinners";
 
-const HomePage = lazy(() => import("./pages/HomePage/HomePage.jsx"));
+const HomePage = lazy(() => import("./pages/Homepage/HomePage.jsx"));
 const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage.jsx"));
 const MovieDetailsPage = lazy(() =>
   import("./pages/MovieDetailsPage/MovieDetailsPage.jsx")
